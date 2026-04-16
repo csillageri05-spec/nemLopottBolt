@@ -2,5 +2,5 @@ body{
     margin: 0;
     padding: 0;
     background-color: burlywood;
-    background-image: url("/images/background.webp");
+    background-image: url("../images/background.webp");
 }
