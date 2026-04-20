@@ -5,7 +5,7 @@ export default class Termek {
   name;
   description;
   img;
-  constructor(price, name, description, img) {
+  constructor(price = 404, name = "error", description = "error", img = "../images/default.jpg") {
     this.price = price;
     this.name = name;
     this.description = description;
