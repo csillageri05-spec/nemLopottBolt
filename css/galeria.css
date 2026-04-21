@@ -1,0 +1,24 @@
+:root {
+  --mc-dirt: #5c3a21;
+  --mc-grass: #4caf50;
+  --mc-stone: #313131;
+  --mc-light: #d9d9d9;
+}
+
+.galeria{
+    background-color: var(--mc-stone);
+    background-image: url("../images/Minecraft_Stone.png");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 15px;
+}
+
+.elem{
+    min-width: 150px;
+    flex: 0 1 30%;
+}
+.elem > img{
+    width: 100%;
+}
