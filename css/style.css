@@ -4,13 +4,15 @@
   --mc-stone: #313131;
   --mc-light: #d9d9d9;
 }
-.fotarolo {
+
+main {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }
-.fejlec,
-.lablec {
+
+header,
+footer {
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
@@ -26,39 +28,33 @@
   text-align: center;
 }
 
-.fejlec h1 {
+header h1 {
   margin: 0;
   text-shadow: 2px 2px 0px #000;
   color: #ffffff;
 }
 
-.lablec {
+footer {
   margin-top: 20px;
   margin-bottom: 0;
   font-size: 0.9em;
   color: #d9d9d9;
 }
 
-.fejlec {
+header {
   background-color: #4caf50;
   border-color: #2e6b31;
   box-shadow:
     inset 4px 4px 0px #81c784,
     inset -4px -4px 0px #2e6b31;
 }
+
 body {
   font-family: "Courier New", Courier, monospace;
   background-color: var(--mc-dirt);
   background-image: url(/images/background.webp);
   background-repeat: no-repeat;
   color: white;
-}
-
-.tartalom {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  padding: 10px;
 }
 
 aside {
@@ -68,16 +64,16 @@ aside {
   box-shadow: inset -4px -4px 0px #2a1a0f;
 }
 
-.navigacio ul {
+nav ul {
   list-style: none;
   padding: 0;
 }
 
-.navigacio li {
+nav li {
   margin-bottom: 10px;
 }
 
-.navigacio a {
+nav a {
   display: block;
   padding: 10px;
   background-color: var(--mc-grass);
@@ -88,22 +84,11 @@ aside {
   box-shadow: 2px 2px 0px #000;
 }
 
-.navigacio a:hover {
+nav a:hover {
   background-color: #66bb6a;
   transform: translate(-1px, -1px);
 }
 
-#kartyak {
-}
-
-.kartya {
-  flex: 1 1 250px;
-  background-color: var(--mc-light);
-  color: black;
-  border: 4px solid var(--mc-stone);
-  padding: 15px;
-  image-rendering: pixelated;
-}
 @media (min-width: 768px) {
   .tartalom {
     flex-direction: row;
